@@ -6,6 +6,32 @@
     font-family: 'AlbertSans', Arial, Helvetica, sans-serif;
 }
 
+
+/*THESE ANIMATIONS IS NOT FINISHED!!!*/
+@keyframes slideRight {
+    from {
+        transform: translateX(-100px);
+    }
+}
+
+@keyframes slideLeft {
+    from {
+        transform: translateX(100px);
+    }
+}
+
+#myName-part1 {
+    display: inline-block;
+    animation: slideRight 1s ease-in-out;
+}
+
+#myName-part2 {
+    color: #dbdbcc;
+    display: inline-block;
+    animation: slideLeft 1s ease-in-out;
+}
+
+
 @font-face {
     font-family: 'AlbertSans';
     src: url(/fonts/AlbertSans-Regular.ttf);
@@ -37,10 +63,6 @@ section {
     letter-spacing: 17px;
     color: #d83e3e;
     cursor: default;
-}
-
-#myName-part2 {
-    color: #dbdbcc;
 }
 
 .home-content h2 {
@@ -140,7 +162,7 @@ section {
     transition: 0.3s ease-in-out;
 }
 
-.about-content img:hover{
+.about-content img:hover {
     box-shadow: 0 0 200px #d83e3e;
     transform: scale(1.05);
     border: 4px solid #d83e3e;
