@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'AlbertSans';
-    src: url(fonts/AlbertSans-Regular.ttf);
+    src: url(/fonts/AlbertSans-Regular.ttf);
 }
 
 body {
@@ -107,10 +107,16 @@ section {
 
 .about {
     display: flex;
-    justify-content: center;
     align-items: center;
     font-size: 1.5rem;
     text-align: center;
+    background: linear-gradient(90deg, #d83e3e 50%, #dbdbcc 50%);
+}
+
+.about-content h1, p{
+    text-align: left;
+    margin-left: 5rem;
+    margin-right: 47rem;
 }
 
 .about-content img {
