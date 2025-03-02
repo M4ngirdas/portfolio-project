@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'AlbertSans', Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: 'AlbertSans';
+    src: url(fonts/AlbertSans-Regular.ttf);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(90deg, #dbdbcc 50%, #d83e3e 50%);
+}
+
+section {
+    display: block;
+    height: 700px;
+}
+
+.home {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 0;
+}
+
+.home-content h1 {
+    font-size: 8.5rem;
+    font-weight: 900;
+    letter-spacing: 17px;
+    color: #d83e3e;
+}
+
+#myName-part2 {
+    color: #dbdbcc;
+}
+
+.home-content h2 {
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.home-content img {
+    height: 200px;
+    width: 200px;
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+}
+
+.home-content img:hover {
+    transform: scale(1.05);
+}
+
+.navbar {
+    margin: 35px 0;
+    letter-spacing: 1px;
+}
+
+.navbar a {
+    margin: 15px;
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+    padding: 11px 8px;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+}
+
+.red-nav:hover {
+    background-color: #d83e3e;
+    color: #dbdbcc;
+}
+
+.white-nav:hover {
+    background-color: #dbdbcc;
+    color: #d83e3e;
+}
+
+.contact-btn {
+    font-size: 1rem;
+    padding: 12px 50px;
+    margin: 50px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-weight: 900;
+    background: linear-gradient(90deg, #003366 20%, #376694 80%);
+    color: #dbdbcc;
+    box-shadow: 0 0 10px #144b83;
+    transition: 0.3s ease-in-out;
+}
+
+.contact-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #144b83;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.about-content img {
+    height: 200px;
+    width: 200px;
+}
