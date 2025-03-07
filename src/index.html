@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/src/style.css">
     <link rel="icon" href="/images/pfp-circular.png">
+    <script src="https://kit.fontawesome.com/2f35c9845e.js" crossorigin="anonymous"></script>
     <title>Mano Portfolio</title>
 </head>
 
@@ -13,7 +14,7 @@
     <section class="home">
         <div class="home-content">
             <h1><span id="myName-part1">Mang</span><span id="myName-part2">irdas</span></h1>
-            <h2>Frontend kūrėjas</h2>
+            <h2>Frontend <span id="myWord"></span>kūrėjas</span></h2>
             <nav class="navbar">
                 <a href="index.html" class="red-nav">Pagrindinis</a>
                 <a href="#about" class="red-nav">Apie mane</a>
@@ -21,15 +22,15 @@
                 <a href="#contacts" class="white-nav">Kontaktai</a>
             </nav>
             <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
-                <button class="contact-btn">Susisiekti</button>
+                <button>Susisiekti</button>
             </a>
         </div>
     </section>
 
     <section id="about" class="about">
         <div class="about-content">
-            <div class="text">
-                <h1>Sveiki,<br> aš Mangirdas Danielevič</h1>
+            <div class="about-text">
+                <h1>Sveiki,<br> aš Mangirdas Malūkas</h1>
                 <h3>Apie mane</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius asperiores numquam obcaecati aperiam
                     quas,
@@ -40,7 +41,53 @@
         </div>
     </section>
 
+    <section id="services" class="services">
+        <div class="services-content">
+            <h1>Mano siūlomos paslaugos</h1>
+            <div id="services-container">
+                <div class="allServices" id="service1">
+                    <i class="fa-solid fa-file fa-2xl"></i>
+                    <h2>Svetainių kūrimas</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero consectetur ducimus sed quos
+                        eligendi
+                        labore cumque, quaerat quidem adipisci voluptate animi aut fugit possimus praesentium officia
+                        deserunt hic eius doloremque!</p>
+                </div>
+                <div class="allServices" id="service2">
+                    <i class="fa-solid fa-rocket fa-2xl"></i>
+                    <h2>Animacijos</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero consectetur ducimus sed quos
+                        eligendi
+                        labore cumque, quaerat quidem adipisci voluptate animi aut fugit possimus praesentium officia
+                        deserunt hic eius doloremque!</p>
+                </div>
+                <div class="allServices" id="service3">
+                    <i class="fa-solid fa-cloud fa-2xl"></i>
+                    <h2>Turinio valdymas</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero consectetur ducimus sed quos
+                        eligendi
+                        labore cumque, quaerat quidem adipisci voluptate animi aut fugit possimus praesentium officia
+                        deserunt hic eius doloremque!</p>
 
+                </div>
+            </div>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                <button>Skaityti daugiau</button>
+            </a>
+        </div>
+    </section>
+    <section id="contacts" class="contacts">
+        <div class="contacts-content">
+            <img src="/images/pfp-mirrored.png" alt="profile picture">
+            <div class="contacts-text">
+                <h1>Sveiki,<br> aš Mangirdas Malūkas</h1>
+                <h3>Apie mane</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quidem voluptates porro sequi,
+                    illo, illum nemo dolor, sit atque libero possimus sapiente modi aspernatur unde tempore itaque
+                    quisquam dicta nisi?</p>
+            </div>
+        </div>
+    </section>
     <script src="/src/script.js"></script>
 </body>
 
