@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="/src/style.css">
     <link rel="icon" href="/images/pfp-circular.png">
     <script src="https://kit.fontawesome.com/2f35c9845e.js" crossorigin="anonymous"></script>
-    <title>Mano Portfolio</title>
+    <title>Mangirdas Portfolio</title>
 </head>
 
 <body>
-    <section class="home">
-        <div class="home-content">
+    <section id="home" class="home">
+        <div class="homeContent">
             <h1><span id="myName-part1">Mang</span><span id="myName-part2">irdas</span></h1>
-            <h2>Frontend <span id="myWord"></span>kūrėjas</span></h2>
+            <h2>Frontend <span id="myWord"></span>programuotojas</span></h2>
             <nav class="navbar">
                 <a href="index.html" class="red-nav">Pagrindinis</a>
                 <a href="#about" class="red-nav">Apie mane</a>
@@ -28,16 +28,15 @@
     </section>
 
     <section id="about" class="about">
-        <div class="about-content">
-            <div class="about-text">
+        <div class="aboutContent">
+            <div class="aboutText">
                 <h1>Sveiki,<br> aš Mangirdas Malūkas</h1>
                 <h3>Apie mane</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius asperiores numquam obcaecati aperiam
-                    quas,
-                    aliquam quis odit optio hic iure velit totam ab doloremque facilis rem corrupti, voluptatem, laborum
-                    architecto.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus illum sequi facere iusto ea, omnis
+                    optio! Mollitia placeat, labore a architecto tempora facere, expedita enim, quo error ab ad
+                    repudiandae!</p>
             </div>
-            <img src="/images/pfp.png" alt="profile picture">
+            <img src="/images/pfp.png" alt="mangirdas profile picture">
         </div>
     </section>
 
@@ -78,16 +77,58 @@
     </section>
     <section id="contacts" class="contacts">
         <div class="contacts-content">
-            <img src="/images/pfp-mirrored.png" alt="profile picture">
-            <div class="contacts-text">
-                <h1>Sveiki,<br> aš Mangirdas Malūkas</h1>
-                <h3>Apie mane</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quidem voluptates porro sequi,
-                    illo, illum nemo dolor, sit atque libero possimus sapiente modi aspernatur unde tempore itaque
-                    quisquam dicta nisi?</p>
+            <img src="/images/pfp-mirrored.png" alt="mangirdas profile picture">
+            <div class="contacts-container">
+                <h1>Kontaktai</h1>
+                <div class="contacts-icons">
+                    <div id="phone-container">
+                        <div class="phoneANDlocation"><i class="fa-solid fa-phone"></i></div>
+                        <p>+370 000 00 000</p>
+                    </div>
+                    <div id="location-container">
+                        <div id="location-icon">
+                            <div class="phoneANDlocation"><i class="fa-solid fa-location-dot"></i></div>
+                        </div>
+                        <div id="location-p">
+                            <p><span class="cityName">Vilnius</span> Pilies g. 1</p>
+                            <p><span class="cityName">Kaunas</span> Maironio g. 2</p>
+                            <p><span class="cityName">Klaipėda</span> Tiltų g. 3</p>
+                        </div>
+                    </div>
+                </div>
+                <button>Susisiekti</button>
+            </div>
+            <div class="side-buttons">
+                <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://discord.com/" target="_blank"><i class="fa-brands fa-discord"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://x.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+        </div>
+        <div id="popup">
+            <div id="popup-content">
+                <span id="popup-close">x</span>
+                <h1>Nusiūskite man žinutę!</h1>
+                <form id="popup-form">
+                    <input type="text" placeholder="Vardas">
+                    <input type="text" placeholder="El. Paštas">
+                    <textarea placeholder="Jūsų žinutė"></textarea>
+                    <button>Siųsti</button>
+                </form>
             </div>
         </div>
     </section>
+    <footer>
+        <div class="footerContent">
+            <p>&copy; 2025 Mangirdas Portfolio | Autorių Teisės Saugomos</p>
+            <nav class="navbar">
+                <a href="#home" class="red-nav">Pagrindinis</a>
+                <a href="#about" class="red-nav">Apie mane</a>
+                <a href="#services" class="white-nav">Paslaugos</a>
+                <a href="#contacts" class="white-nav">Kontaktai</a>
+            </nav>
+        </div>
+    </footer>
     <script src="/src/script.js"></script>
 </body>
 
